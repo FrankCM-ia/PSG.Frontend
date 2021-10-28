@@ -1,0 +1,19 @@
+.frmNot {
+  width: 900px;
+  height: 480px;
+  position: relative;
+  left: 10%;
+  background: #d9d9d9;
+  border-radius: 20px;
+  margin-top: 3%;
+  padding: 3%;
+}
+.btnSend {
+  background: #000a25;
+  color:white;
+  border-radius: 10px;
+  position: relative;
+  left: 75%;
+
+  width: 200px;
+}

@@ -1,0 +1,43 @@
+.partTopTutor {
+  
+  background: #efefef;
+  width: 70%;
+  margin-top: 1%;
+  padding: 4% 1% 4% 1%;
+  border-radius: 10px;
+  margin-left: 2%;
+  border-style: groove;
+}
+.partBotTutor {
+  width: 95%;
+  height: 41%;
+  margin-top: 0%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 2%;
+}
+.lblTuAsignado {
+  padding-left: 2%;
+  padding-top: 0.5%;
+}
+.cardImagenPerfil {
+  position: absolute;
+  left: 82%;
+  top: 10%;
+  height: 140px;
+  border-radius: 20%;
+  border-style: groove;
+}
+.celda {
+  margin-left: 10%;
+}
+.btnCambiarTutor {
+  position: absolute;
+  left: 87%;
+  top: 48%;
+  border-radius: 50px;
+  background: #000a25;
+  color:white;
+  height: 50px;
+  width: 130px;
+}

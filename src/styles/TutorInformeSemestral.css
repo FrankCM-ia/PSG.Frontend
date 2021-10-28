@@ -1,0 +1,86 @@
+.part1Info {
+  padding: 1%;
+  height: 36%;
+}
+
+.Principala {
+  margin-top: 23px;
+  margin-bottom: -20px;
+  border-radius: 5px;
+  background: white;
+  border-radius: 20px;
+  height: 28%;
+  width: 100%;
+  /* IMPORTANTE */
+}
+
+.part2Info {
+  height: 45%;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 2%;
+  padding: 1%;
+  border-radius: 20px;
+  background: #efefef;
+}
+.part3Info {
+  height: 25%;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 2%;
+  padding: 1%;
+  border-radius: 20px;
+  background: #efefef;
+}
+.alturaDrop {
+  height: 35px;
+}
+.altur {
+  position: relative;
+  height: 200px;
+  overflow: auto;
+  margin-top: 1%;
+  width: 100%;
+  border-radius: 0px;
+}
+.alt {
+  display: block;
+}
+.alturaCelda {
+  height: 30px;
+}
+.anchotab {
+  width: 100%;
+}
+.tableScrollSe {
+  position: relative;
+  height: 120px;
+  padding-left: 1%;
+  padding-right: 1%;
+  overflow: auto;
+  margin-top: 1%;
+  width: 100%;
+  border-radius: 0px;
+}
+.btnAdd {
+  background: #000a25;
+  color:white;
+  border-radius: 10px;
+  width: 200px;
+  margin-left: 55px;
+  height: 32px;
+}
+.btnEnviar {
+  background: #000a25;
+  color:white;
+  border-radius: 10px;
+  position: relative;
+  left: 80%;
+  top: 10%;
+  width: 200px;
+  height: 32px;
+  margin-top: 20px;
+}
+.titulo{
+  font-weight: bolder;
+}
