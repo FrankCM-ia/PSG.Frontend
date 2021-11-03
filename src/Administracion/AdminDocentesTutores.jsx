@@ -7,7 +7,7 @@ import '../styles/AdminDocentes.css'
 
 const AdminDocentesTutores = (props) => {
     const cookie =new Cookies();
-    const baseUrl=`https://backendtutorias.herokuapp.com/tutores`;
+    const baseUrl=`https://tutorias-api.herokuapp.com/tutores`;
     const[data,setData]=useState([]);
     const peticionGet=async()=>{
         await axios.get(baseUrl)

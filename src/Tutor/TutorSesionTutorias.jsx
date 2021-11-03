@@ -41,7 +41,7 @@ const TutorSesionTutorias = (props) => {
   const [mostrar,setMostrar]=useState(false);
   const abrirCerrarMostrar=()=>{setMostrar(!mostrar)}
   const[warningView,setWarningview]=useState(false);
-  const url=`https://backendtutorias.herokuapp.com/Conf/Observacion`
+  const url=`https://tutorias-api.herokuapp.com/Conf/Observacion`
   const getInfo=async(ses,index)=>{
     await axios.get(url+`/${ses}`)
     .then(response=>{
@@ -84,8 +84,8 @@ const TutorSesionTutorias = (props) => {
     setObservaciones("");
     setFecha("");
   };
-  const baseUrl = `https://backendtutorias.herokuapp.com/fichas/asignacion/${codDocente}`;
-  const baseUrlSemestre = `https://backendtutorias.herokuapp.com/coordinador`;
+  const baseUrl = `https://tutorias-api.herokuapp.com/fichas/asignacion/${codDocente}`;
+  const baseUrlSemestre = `https://tutorias-api.herokuapp.com/coordinador`;
 
   const peticionGet = async () => {
     await axios
@@ -113,7 +113,7 @@ const TutorSesionTutorias = (props) => {
       setSemestre(elemento.Periodo);
     });
   };
-  const baseUrlSesiones = `https://backendtutorias.herokuapp.com/sesiones`;
+  const baseUrlSesiones = `https://tutorias-api.herokuapp.com/sesiones`;
   const peticionPost = async () => {
     await axios
       .post(baseUrlSesiones, {
@@ -137,7 +137,7 @@ const TutorSesionTutorias = (props) => {
 
   const peticionSesiones = async (id) => {
     await axios
-      .get(`https://backendtutorias.herokuapp.com/sesiones/ficha/${id}`)
+      .get(`https://tutorias-api.herokuapp.com/sesiones/ficha/${id}`)
       .then((response) => {
         setSesiones(response.data);
       })

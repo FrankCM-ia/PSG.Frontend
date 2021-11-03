@@ -20,12 +20,12 @@ const TadoTutorAsignado = () => {
             EsTutor: ""
         }
     ])
-    const baseUrlFoto=`https://backendtutorias.herokuapp.com/FotoPerfil`;
+    const baseUrlFoto=`https://tutorias-api.herokuapp.com/FotoPerfil`;
     const[direccionUrl,setDireccionUrl]=useState([{
         Foto:"./imagenes/carga.gif"
     
     }])
-    const baseUrl=`https://backendtutorias.herokuapp.com/asignaciones`
+    const baseUrl=`https://tutorias-api.herokuapp.com/asignaciones`
     const peticionGetDatos=async()=>{
         await axios.get(baseUrl+`/${cookie.get('CodEstudiante')}`)
         .then(response=>{

@@ -26,8 +26,8 @@ const firebaseConfig = {
 };
 !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app();
 const TadoPerfil = (props) => {
-    const baseUrl=`https://backendtutorias.herokuapp.com/FotoPerfil`;
-    const baseUrlConf=`https://backendtutorias.herokuapp.com/Conf`;
+    const baseUrl=`https://tutorias-api.herokuapp.com/FotoPerfil`;
+    const baseUrlConf=`https://tutorias-api.herokuapp.com/Conf`;
     const[successView,setSuccessView]=useState(false);
     const abrirCerrarModalSuccess=()=>{
         setSuccessView(!successView);
@@ -37,7 +37,7 @@ const TadoPerfil = (props) => {
         setErrorview(!errorView);
       }
         
-    const urlPass=`https://backendtutorias.herokuapp.com/UpPass`
+    const urlPass=`https://tutorias-api.herokuapp.com/UpPass`
     const [passNow,setPassNow]=useState('')
     const [passNew,setPassNew]=useState('')
     const putPass=async()=>{

@@ -12,8 +12,8 @@ import Cookies from 'universal-cookie'
 
 const AdminEstudiantes = (props) => {
   const cookie =new Cookies();
-    const baseUrl=`https://backendtutorias.herokuapp.com/estudiantes`;
-    const baseUrlExcel=`https://backendtutorias.herokuapp.com/estudiantesLista`;
+    const baseUrl=`https://tutorias-api.herokuapp.com/estudiantes`;
+    const baseUrlExcel=`https://tutorias-api.herokuapp.com/estudiantesLista`;
     const[modalInsertar,setModalInsertar]=useState(false);
     const [codEstudiante, setCodEstudiante] = React.useState("");
     const [nombres, setNombres] = React.useState("");

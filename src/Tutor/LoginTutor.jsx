@@ -8,7 +8,7 @@ import {Modal,ModalFooter,ModalHeader} from 'reactstrap'
 import Cookies from 'universal-cookie/es6';
 import '../styles/LoginTutorados.css'
 const LoginTutor = (props)=>{
-    const baseURL="https://backendtutorias.herokuapp.com/loginDocente";
+    const baseURL="https://tutorias-api.herokuapp.com/loginDocente";
     const cookies=new Cookies();
     const[user,setUser]=useState('')
     const[password,setPassword]=useState('')

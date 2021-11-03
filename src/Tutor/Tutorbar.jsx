@@ -13,7 +13,7 @@ import '../styles/TutoradosBar.css'
 
 const TutoradoBar = (props) => {
    const {nombrePage}=props;
-   const baseUrl=`https://backendtutorias.herokuapp.com/FotoPerfil`;
+   const baseUrl=`https://tutorias-api.herokuapp.com/FotoPerfil`;
     const[direccionUrl,setDireccionUrl]=useState([{
         Foto:"./imagenes/carga.gif"
     

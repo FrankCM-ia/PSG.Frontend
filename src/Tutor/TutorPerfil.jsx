@@ -36,7 +36,7 @@ const TutorPerfil = (props) => {
         setErrorview(!errorView);
       }
         
-    const urlPass=`https://backendtutorias.herokuapp.com/UpPass`
+    const urlPass=`https://tutorias-api.herokuapp.com/UpPass`
     const [passNow,setPassNow]=useState('')
     const [passNew,setPassNew]=useState('')
     const putPass=async()=>{
@@ -55,7 +55,7 @@ const TutorPerfil = (props) => {
             console.log(error)
         })
     }
-    const baseUrl=`https://backendtutorias.herokuapp.com/FotoPerfil`;
+    const baseUrl=`https://tutorias-api.herokuapp.com/FotoPerfil`;
     const[direccionUrl,setDireccionUrl]=useState([{
         Foto:"./imagenes/carga.gif"
     }])

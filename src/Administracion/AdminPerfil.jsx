@@ -26,7 +26,7 @@ const firebaseConfig = {
 };
 !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app();
 const AdminPerfil = (props) => {
-    const baseUrl=`https://backendtutorias.herokuapp.com/FotoPerfil`;
+    const baseUrl=`https://tutorias-api.herokuapp.com/FotoPerfil`;
     const[successView,setSuccessView]=useState(false);
     const abrirCerrarModalSuccess=()=>{
         setSuccessView(!successView);
@@ -36,7 +36,7 @@ const AdminPerfil = (props) => {
         setErrorview(!errorView);
       }
         
-    const urlPass=`https://backendtutorias.herokuapp.com/UpPass`
+    const urlPass=`https://tutorias-api.herokuapp.com/UpPass`
     const [passNow,setPassNow]=useState('')
     const [passNew,setPassNew]=useState('')
     const putPass=async()=>{

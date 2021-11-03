@@ -9,10 +9,10 @@ import {Modal,ModalBody,ModalFooter,ModalHeader} from 'reactstrap'
 import Cookies from 'universal-cookie'
 const AdminAsignarTutor = (props) => {
   const cookie =new Cookies();
-    const baseUrlEstudiantes=`https://backendtutorias.herokuapp.com/estudiantes`;
-    const baseUrlTutores=`https://backendtutorias.herokuapp.com/tutores`;
-    const baseUrlAsignaciones=`https://backendtutorias.herokuapp.com/asignaciones`;
-    const baseUrlAsignacionesList=`https://backendtutorias.herokuapp.com/Listasignaciones`;
+    const baseUrlEstudiantes=`https://tutorias-api.herokuapp.com/estudiantes`;
+    const baseUrlTutores=`https://tutorias-api.herokuapp.com/tutores`;
+    const baseUrlAsignaciones=`https://tutorias-api.herokuapp.com/asignaciones`;
+    const baseUrlAsignacionesList=`https://tutorias-api.herokuapp.com/Listasignaciones`;
     const [estudiantesList,setEstudiantesList]=useState([])
     const[data,setData]=useState([]);
     const[codEstudiante,setCodEstudiante]=useState('Codigo estudiante')

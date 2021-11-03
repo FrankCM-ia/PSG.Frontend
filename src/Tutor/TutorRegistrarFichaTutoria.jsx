@@ -100,7 +100,7 @@ const TutorRegistrarFichaTutoria = (props) => {
 }
   const [warningView, setWarningview] = useState(false);
 
-  const baseUrl = `https://backendtutorias.herokuapp.com/fichas/asignacion/${codDocente}`;
+  const baseUrl = `https://tutorias-api.herokuapp.com/fichas/asignacion/${codDocente}`;
 
   console.log(baseUrl);
   const peticionGet = async () => {
@@ -141,7 +141,7 @@ const TutorRegistrarFichaTutoria = (props) => {
     setPersonaReferencia("");
     setCelularReferencia("");
   };
-  const baseUrl2 = `https://backendtutorias.herokuapp.com/fichas`;
+  const baseUrl2 = `https://tutorias-api.herokuapp.com/fichas`;
   const peticionPut = async () => {
     if (
       !(parseInt(celularRef) <= 999999999 && parseInt(celularRef) >= 900000000)

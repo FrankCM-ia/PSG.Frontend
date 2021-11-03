@@ -103,8 +103,8 @@ const columnas = [
 
 const AdminDocentes = (props) => {
   const cookie =new Cookies();
-        const baseUrl=`https://backendtutorias.herokuapp.com/docentes`;
-        const baseUrlExcel=`https://backendtutorias.herokuapp.com/docentesLista`;
+        const baseUrl=`https://tutorias-api.herokuapp.com/docentes`;
+        const baseUrlExcel=`https://tutorias-api.herokuapp.com/docentesLista`;
         const[excel,setExcel]=useState([{
           CodDocente:'',
           Nombres:'',
