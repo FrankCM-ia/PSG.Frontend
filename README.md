@@ -30,8 +30,8 @@
 * Back-end - API : `npm run dev`
 
 ## Despliegue ⌨️👀 
-* [Backend](https://backendtutorias.herokuapp.com/)
-* [Frontend Heroku](https://frontendtutoria.herokuapp.com/) - [Frontend Netlify](https://sistema-tutorias-daii.netlify.app/)
+* [Backend](https://tutorias-api.herokuapp.com/)
+* [Frontend Netlify](https://tutorias-daii.netlify.app/)
 
 ## Autores ✒️
 * **Luis Augusto Araujo Lechuga - 170748** - [Cucho145U](https://github.com/Cucho145U)
